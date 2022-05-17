@@ -11,10 +11,10 @@ const { AddDate } = require('./Midelware');
     res.sendFile(__dirname+ "/public/home.html");
   });
   app.get("/Services",AddDate,(req,res,next)=>{
-    res.sendFile( __dirname +"/public/Services.html");
+    res.sendFile( __dirname +"/public/OurService.html");
   });
   app.get("/contact",AddDate,(req,res,next)=>{
-    res.sendFile(__dirname+ "/public/contact.html");
+    res.sendFile(__dirname+ "/public/ContactUs.html");
   });
 
 
